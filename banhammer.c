@@ -16,7 +16,7 @@
 #include <string.h>
 
 #define KB 1024
-#define WORD "[a-zA-Z0-9_]+(('|-)[a-zA-Z0-9_])*"
+#define WORD "[a-zA-Z0-9_]+(('|-)[a-zA-Z0-9_]+)*"
 #define OPTIONS "hsmt:f:"
 
 static void usage(char *exec) {
