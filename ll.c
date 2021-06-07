@@ -67,6 +67,7 @@ Node *ll_lookup(LinkedList *ll, char *oldspeak) {
 				ll->head->next = n;
 				n->next->prev = n;
 			}
+			return n;
 		}
 		n = n->next;
 		links++;
